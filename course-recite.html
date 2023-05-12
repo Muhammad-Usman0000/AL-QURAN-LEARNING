@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>course-recite</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <!-- flickity for slider -->
+  <link href="https://unpkg.com/flickity@2/dist/flickity.min.css" rel="stylesheet" />
+
+  <!-- bootstrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <!-- for animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="assets/style/course-recite.css" />
+  <!-- for font awsme icon  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- slider -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css" />
+</head>
+
+<body>
+
+  <!-- Navbar design start -->
+   <!-- navTopBar -->
+   <div class="conatiner">
+    <div class="row mx-0">
+      <div class="mainHandler d-flex justify-content-evenly align-items-center">
+        <!-- logo -->
+        <div class="logo">
+          <a href="index.html"><img src="assets/image/PNG-3.png" class="img-fluid navLogoImg" alt="" /></a>
+        </div>
+        <!-- whatsapp -->
+        <div class="whatsApp">
+          <div class="icon">
+            <i class="fa-brands fa-whatsapp fa-2x whatsappIcon"></i>
+          </div>
+          <div class="ps-2 text-white">+01 234 567 89</div>
+        </div>
+        <!-- telephone -->
+        <div class="whatsApp">
+          <div class="icon">
+            <i class="fa-solid fa-phone fa-2x TelephoneIcon"></i>
+          </div>
+          <div class="ps-2 text-white">+01 234 567 89</div>
+        </div>
+        <!-- facebook -->
+        <div class="socialIcon ">
+          <span>
+            <i class="fa-brands fa-facebook fa-2x fbIcon"></i>
+          </span>
+          <span class="ps-3">
+            <i class="fa-brands fa-instagram fa-2x instIcon"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- navTopBar -->
+  <!-- <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-lg-4 col-md-3 col-sm-3">
+          <a class="navbar-brand" href="index.html"><img src="assets/image/PNG-3.png" class="logo"></a>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-3 text-d ">
+          <i class="fa-brands fa-whatsapp me-3 design-font text-black text-secondary"></i> + 01
+          234 567 89</div>
+        <div class="col-lg-2 col-md-3 col-sm-3 text-d">
+          <i class="fa-solid fa-phone me-3 design-font text-black text-secondary"></i> + 01
+          234 567 89</div>
+        <div class="col-lg-4 col-md-3 col-sm-3">
+          <a href="" class="me-4 icon-sec link-secondary">
+            <i class="fab fa-facebook-f design-font-1 text-black"></i>
+          </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fab fa-instagram design-font-1 text-black"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav> -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #5757cf;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <!-- <img src="assets/image/PNG-3.png" class="" style="width:12%"> -->
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="course-reading.html  active" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Courses
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="course-reading.html">Quran Reading</a></li>
+              <li><a class="dropdown-item" href="course-trans.html">Quran Translation</a></li>
+              <li><a class="dropdown-item" href="course-recite.html">Quran Recitation </a></li>
+              <li>
+                <a class="dropdown-item" href="course-memoriz.html">Quran Memorization </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactUs.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="privacy policy.html">Privacy Policy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faqs.html">FAQs</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Navbar design End -->
+
+  <!-- Now start main banner image  -->
+  <div class="main-banner">
+    <img src="assets/image/course/main-ban.jpg" class="main-ban text-center text-white">
+    <h2 class="head1 text-center text-white">Learn How to Recite Quran</h2>
+    <p class="text-center text-white">The Original Online Quran Tutoring Service.</p>
+    <button type="button" class="btn btn-main text-center text-white btn-warning">Join US</button>
+  </div>
+
+  <!-- End main banner section -->
+
+  <!-- Start Section no 3 -->
+  <div class="third-section">
+    <img src="assets/image/course/tech-method.PNG" class="section-3" alt="" style="width: 100%;">
+    <img src="assets/image/course/tech-1.png " class="tech-2 " style="width: 100%;">
+    <p class="content-1 text-center">The primary objective of this course is to help students recite Quran
+      in the way it is to be recited. The experienced teachers teach the students regarding the rules that
+      need to be followed in order to recite the words and verses properly.</p>
+    <h1 class="head2 text-center">Teaching Methodology:</h1>
+  </div>
+
+  <!-- container no 1 -->
+  <div class="container-fluid">
+    <div class="row">
+      <!-- column no 1 -->
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <img src="assets/image/course/r1.jpeg" class="arabic-img">
+      </div>
+      <!-- column no 2 -->
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <h3 class="headingone text-center">Different Pronunciation Variations ​ </h3>
+        <p class="textphara text-center">The students are then taught the different pronunciation variations of
+          the same alphabet in different words</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- container no 2 -->
+  <div class="container-fluid">
+    <div class="row">
+      <!-- column no 1 -->
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <h3 class="headingone text-center">Better Recitation</h3>
+        <p class="textphara text-center">Students are also familiarized with pause and continuation signs in verses
+          that help in better recitation</p>
+      </div>
+      <!-- column no 2 -->
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <img src="assets/image/course/r2.jpeg" class="arabic-img2">
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- container no 3 -->
+  <div class="container-fluid">
+    <div class="row">
+      <!-- column no 1 -->
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <img src="assets/image/course/r3.jpeg" class="arabic-img">
+      </div>
+      <!-- column no 2 -->
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <h3 class="headingone text-center">Different Rules of Tajweed</h3>
+        <p class="textphara text-center">Different rules of tajweed like Ikhfa Meem Saakin, Qalb,
+          Ghunna and so on all are taught to the students</p>
+      </div>
+    </div>
+  </div>
+  <!-- End Section no 3 -->
+
+
+  <!-- Footer -->
+  <footer class="footer-main text-center text-lg-start text-white" style="background-color: #413fd9">
+
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3 text-white text-secondary"></i>AL
+              QURAN LEARNING
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer
+              content. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Working Hours</h6>
+            <p>
+              We work 7 days a week, every day excluding major holidays.
+              Contact us if you have an emergency, with our Hotline and Contact form.
+            </p>
+            <div class="row">
+              <div class="col-7">
+                <p>Monday - Friday: </p>
+                <p> Saturday:</p>
+                <p>Sunday/ holidays: </p>
+              </div>
+              <div class="col-5">
+                <p> 24 - Hours</p>
+                <p> 24 - Hours</p>
+                <p> 24 - Hours</p>
+              </div>
+            </div>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase text-white fw-bold mb-4">Contact</h6>
+            <p>
+              <i class="fas fa-home me-3 text-white text-secondary"></i> New
+              York, NY 10012, US
+            </p>
+            <p>
+              <i class="fas fa-envelope me-3 text-white text-secondary"></i>
+              info@example.com
+            </p>
+            <p>
+              <i class="fas fa-phone me-3 text-white text-secondary"></i> + 01
+              234 567 88
+            </p>
+            <p>
+              <i class="fas fa-print me-3 text-white text-secondary"></i> + 01
+              234 567 89
+            </p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-facebook-f text-white"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-instagram text-white"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025)">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">ALQuranLearningCenter.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+  <!-- for bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+  </script>
+  <!-- for animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- custom javaScript -->
+  <script src="assets/js/logic.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+.mainHandler{
+  background-image: linear-gradient(to right, #d7e4626b, #86abe6);
+}
+.navLogoImg{
+  width: 5rem;
+}
+.fbIcon:hover{
+  color: #4064AC;
+}
+.instIcon:hover{
+  color:#E82E23;
+}
+.whatsApp{
+  display: flex;
+  align-items: center;
+}
+.whatsappIcon:hover{
+  color: #24CC63;
+}
+.TelephoneIcon:hover{
+  color: #5757CF;
+}
+.logo{
+    width: 18%;
+  }
+  .navbar-collapse
+  {
+    justify-content: space-around;
+    text-align: center;
+    /* margin-left: 21rem; */
+    padding: 10px;
+  }
+  .nav-item{
+    font-size: 18px;
+    justify-content: space-between;
+  }
+  /* .navbar-coll{
+    margin-left: -36rem;
+  } */
+  .navbar-brand{
+    padding: 0 0 0 30px;
+  }
+  .design-font{
+    margin-top: 19px;
+      font-size: 24px;
+  
+  }
+  .design-font-1{
+    margin-top: 27px;
+      font-size: 20px;
+  
+  }
+  .icon-sec{
+    margin-left: 19rem;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+li {
+    list-style: none;
+}
+body{
+   font-family: sans-serif;
+}
+
+.bannerBgImage{
+    background-image: url(https://www.quranreading.com/qrnewis/wp-content/uploads/2020/03/1200-450-1-1.jpg);
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bannerText{
+    padding-top: 10%;
+}
+.bannerBtn{
+    border: 2px solid #F7BB4F;
+    background-color: #F7BB4F;
+    border-radius: 2rem;
+}
+
+
+.formImg{
+    width: 100%;
+    height: 25rem;
+}
+.forMt{
+    margin-top: -8rem;
+}
+.bgForm{
+    background-color: #F7BB4F;
+    width: 45rem;
+    border-radius: 2rem;
+ 
+}
+.fullName {
+    padding: 0.4rem 1rem;
+   
+    width: 35rem;
+    border-style: none;
+    border-radius: 1rem;
+}
+::placeholder{
+    color: rgb(218, 188, 188);
+}
+.forCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.enrollForFree{
+    border-style: none;
+    border-radius: 1rem;
+}
+.enrollForFree:hover{
+    background-color: #005ce6 !important;
+}
+.footer-main{
+  padding: 20px 0 0 0;
+}

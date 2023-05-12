@@ -1,0 +1,264 @@
+/* ............................ START MEDIA QUERY ABOUT US  ..........................  */
+/* ........................... MEDIA QUERY FOR MOBILE .............................. */
+
+@media only screen and (max-width: 767px) {
+  .mainHandler {
+    flex-direction:column !important;
+  } 
+  .enrollForFree {
+        padding: 1rem 5rem;
+       
+    }
+    .bannerBtn {
+
+        font-size: 1rem !important;
+    }
+    .bannerText {
+        padding-top: 38%;
+    }
+    .mainFlex {
+        flex-direction: column;
+    }
+    .forPs{
+        padding-left: 0rem !important;
+    }
+    .inputCustom {
+        margin-top: 1rem;
+    }
+    .bannerBgImage {
+    
+        height: 100vh;
+    
+    }
+    .navbar-collapse{
+        margin-left: 0;
+      }
+      .logo{
+        margin-left: 9rem;
+      }
+      .icon-sec{
+        margin-left: 11rem;
+      }
+      .design-font{
+        margin-left: 8rem;
+        font-size: 20px;
+      }
+      .design-font-1 {
+        margin-top: 19px;
+        font-size: 20px;
+      }
+      .text-d{
+        font-size: 14px;
+      }
+}
+/* ...................... CLOSE MOBILE MEDIA QUERY ........................... */
+
+/* ...................... START TAB MEDIA QUERY ................................... */
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .bannerText {
+        padding-top: 20%;
+    }
+    .forFlex{
+        display: flex;
+        flex-direction: column;
+    }
+    .bannerBgImage {
+     
+        height: 100vh;
+    
+    }
+    .navbar-collapse{
+        margin-left: 0;
+      }
+      .icon-sec{
+        margin-left: 5rem;
+      }
+      .design-font{
+        
+        font-size: 20px;
+      }
+      .design-font-1 {
+        margin-top: 19px;
+        font-size: 20px;
+      }
+      .text-d{
+        font-size: 14px;
+      }
+      .logo{
+        width: 34%;
+      }
+}
+/* ...........................CLOSE  MEDIA QUERY FOR tab/medium .............................. */
+
+/* ........................... MEDIA QUERY FOR LARGE SCREEN .............................. */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .bannerText {
+        padding-top: 20%;
+    }
+    .bannerBgImage {
+        height: 100vh;
+        
+        
+    }
+    .forFlex{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar-collapse{
+        margin-left: 0rem;
+      }
+      .icon-sec{
+        margin-left: 13rem;
+      }
+      .design-font{
+        font-size: 20px;
+      }
+      .design-font-1 {
+        margin-top: 19px;
+        font-size: 20px;
+      }
+      .text-d{
+        font-size: 14px;
+      }
+
+}
+
+/* START X-LARGE */
+@media screen and (min-width: 1200px) and (max-width: 1450px) {
+    .navbar-collapse{
+        margin-left: 0;
+      }
+      .design-font{
+        margin-top: 27px;
+        font-size: 20px;
+      }
+      .icon-sec{
+        margin-top: 27px;
+      }
+      .bannerText {
+        padding-top: 11%;
+    }
+  }
+  
+/* ...........................exit MEDIA QUERY FOR LARGE SCREEN .............................. */
+
+
+/* ............................ START MEDIA QUERY Contact US  ..........................  */
+/* ........................... MEDIA QUERY FOR MOBILE .............................. */
+
+@media only screen and (max-width: 767px){
+
+    .contactUsHeading{
+        font-size: 1rem;
+    }
+    .formImg {
+        width: 26.5rem;
+        height: 10rem;
+    }
+    .forMt {
+        margin-top: 0rem;
+    }
+    .bgForm {
+        width: 23rem;
+    }
+    .fullName {
+        width: 15rem;
+    }
+    .navbar-collapse{
+        margin-left: 0;
+      }
+      .logo{
+        margin-left: 9rem;
+      }
+      .icon-sec{
+        margin-left: 11rem;
+      }
+      .design-font{
+        margin-left: 8rem;
+        font-size: 20px;
+      }
+      .design-font-1 {
+        margin-top: 19px;
+        font-size: 20px;
+      }
+      .text-d{
+        font-size: 14px;
+      }
+}
+/* ...................... CLOSE MOBILE MEDIA QUERY ........................... */
+
+/* ...................... START TAB MEDIA QUERY ................................... */
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .formImg {
+        width: 84.5rem;
+        height: 15rem;
+    }
+    .forMt {
+        margin-top: -4rem;
+    }
+    .navbar-collapse{
+        margin-left: 0;
+      }
+      .icon-sec{
+        margin-left: 5rem;
+      }
+      .design-font{
+        
+        font-size: 20px;
+      }
+      .design-font-1 {
+        margin-top: 19px;
+        font-size: 20px;
+      }
+      .text-d{
+        font-size: 14px;
+      }
+      .logo{
+        width: 34%;
+      }
+}
+
+/* ...........................CLOSE  MEDIA QUERY FOR tab/medium .............................. */
+
+/* ........................... MEDIA QUERY FOR LARGE SCREEN .............................. */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .forMt {
+        margin-top: -6rem;
+    }
+    .navbar-collapse{
+        margin-left: 0rem;
+      }
+      .icon-sec{
+        margin-left: 13rem;
+      }
+      .design-font{
+        font-size: 20px;
+      }
+      .design-font-1 {
+        margin-top: 19px;
+        font-size: 20px;
+      }
+      .text-d{
+        font-size: 14px;
+      }
+}
+
+/* START X-LARGE */
+@media screen and (min-width: 1200px) and (max-width: 1450px) {
+
+    .navbar-collapse{
+        margin-left: 0;
+      }
+      .design-font{
+        margin-top: 27px;
+        font-size: 20px;
+      }
+      .icon-sec{
+        margin-top: 27px;
+      }
+  }
+  

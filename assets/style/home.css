@@ -1,0 +1,559 @@
+a {
+  text-decoration: none !important;
+}
+.mainHandler{
+  background-image: linear-gradient(to right, #d7e4626b, #86abe6);
+}
+.navLogoImg{
+  width: 5rem;
+}
+.fbIcon:hover{
+  color: #4064AC;
+}
+.instIcon:hover{
+  color:#E82E23;
+}
+.whatsApp{
+  display: flex;
+  align-items: center;
+}
+.whatsappIcon:hover{
+  color: #24CC63;
+}
+.TelephoneIcon:hover{
+  color: #5757CF;
+}
+.logo{
+  width: 18%;
+}
+.navbar-collapse
+{
+  justify-content: space-around;
+  text-align: center;
+  /* margin-left: 21rem; */
+  padding: 10px;
+}
+.nav-item{
+  font-size: 18px;
+  justify-content: space-between;
+}
+/* .navbar-coll{
+  margin-left: -36rem;
+} */
+.navbar-brand{
+  padding: 0 0 0 30px;
+}
+.design-font{
+  margin-top: 19px;
+    font-size: 24px;
+
+}
+.design-font-1{
+  margin-top: 27px;
+    font-size: 20px;
+
+}
+.icon-sec{
+  margin-left: 19rem;
+}
+.img-quran{
+    width: 100%;
+    height: 45rem;
+}
+.quran-banner{
+    background-color:#010204;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.design-1{
+    margin-top: -185px;
+    width:100%;
+}
+
+.design-2{
+  margin-top: -84px;
+  /* margin-left: -15rem; */
+  justify-content: flex-end;
+}
+
+
+/* container and form */
+.form-class {
+  max-width: 700px;
+  width: 80%;
+  background: #fff;
+  padding: 44px 30px;
+  border-radius: 50px;
+  margin-top: -41rem;
+}
+.form-class .title {
+  
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    padding: 0 11px;
+
+}
+
+.btn-1{
+    border-radius: 18px;
+    padding: 15px 25px;
+    margin-left: 5rem;
+}
+
+.form-class .title::before {
+  content: "";
+  position: absolute;
+  height: 3.5px;
+  width: 30px;
+  background: linear-gradient(135deg, var(--main-blue), var(--main-purple));
+  left: 0;
+  bottom: 0;
+}
+
+.user__details{
+    margin-top: 30px;
+}
+
+form .user__details .input__box {
+  width: calc(100% / 2 - 20px);
+  margin-bottom: 15px;
+}
+
+.user__details .input__box .details {
+  font-weight: 500;
+  margin-bottom: 5px;
+  display: block;
+}
+.user__details .input__box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid var(--main-grey);
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.user__details .input__box input:focus,
+.user__details .input__box input:valid {
+  border-color: var(--main-purple);
+}
+
+p.one {
+  margin-top: -14px;
+  margin-bottom: 10px;
+  border-style: inset;
+  border-width: 2px;
+  width: 90%;
+
+}
+
+
+@media only screen and (max-width: 584px) {
+  .form-class{
+    max-width: 100%;
+  }
+
+  form .user__details .input__box {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  form .gender__details .category {
+    width: 100%;
+  }
+
+  .form-class form .user__details {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+
+  .user__details::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
+
+/* second section start */
+
+.prayer-img{
+  margin-left: 4rem;
+}
+
+p.two {
+  margin-top: 2px;
+  margin-bottom: -2px;
+  border-style: inset;
+  border-width: 2px;
+  width:80%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: inherit;
+  background-color: white;
+  min-width: 550px;
+  z-index: 1;
+}
+.dropbtn {
+  background-color: white;
+  padding: 16px 0;
+  color: rgb(46, 164, 214);
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover{
+color: darkgreen;
+}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 10px;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+}
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: white;
+}
+
+/* third section start */
+
+.banner-2{
+  width: 100%;
+  margin-top: 50px;
+}
+
+.text-1{
+  margin-top: -14rem;
+    color: #5757cf;
+}
+
+.card-img-top{
+  width: 40%;
+    margin-left: 65px;
+}
+
+.card-design{
+  background-color: #413fd9;
+  padding: 55px 0 0 0;
+  width: 13rem;
+  border-radius: 90px 90px 0 0;
+ 
+}
+
+.card-design-1{
+  background-color: #e5b222;
+  padding: 55px 0 0 0;
+  width: 13rem;
+  border-radius: 90px 90px 0 0;
+
+}
+
+.design-col{
+  padding: 5% 6%;
+}
+
+.card-title{
+  font-size: 15px;
+  padding: 30px 30px 0px 30px;
+}
+.card-text{
+  font-size: 12px;
+  padding: 4px;
+}
+
+.rounded-circle{
+  width: 60%;
+  height: 100%;
+  margin-left: 10rem;
+  margin-top: 5rem;
+}
+
+.circle-1{
+  width: 60%;
+  height: 100%;
+  margin-top: 5rem;
+  margin-left: 15px;
+}
+
+.text-2{
+  margin-left: 10rem;
+  margin-top: 5rem;
+
+}
+
+.headingone{
+  margin-top: 9rem;
+    font-size: 18px;
+    padding: 20px 0px;
+
+}
+
+.wrap{
+  margin-left: 13rem;
+}
+
+.footer-main{
+  margin-top: 15rem;
+  padding: 20px 0 0 0;
+}
+
+ /* -------------------------------------------------NOW START MEDIA QUERIES ------------------------------------ */
+
+/* start mobile */
+@media screen and (max-width: 767px) {
+  .mainHandler {
+    flex-direction:column !important;
+  }
+  .prayer-img {
+    margin-left: 11px;
+    width: 100%;
+}
+.form-class .title {
+  font-size: 12px;
+}
+.user__details .input__box input {
+  height: 39px;
+  font-size: 12px;
+}
+.form-class .title {
+  font-size: 17px;
+}
+.btn-1 {
+  padding: 3px;
+  margin-left: 45px;
+  font-size: 14px;
+}
+.design-1 {
+  margin-top: -57px;
+}
+.design-2 {
+  margin-top: -29px;
+  margin-left: 9rem;
+}
+.dropdown-content {
+  min-width: 412px;
+}
+.dropbtn {
+  padding: 16px 20px;
+}
+p.two {
+    width: 100%;
+}
+.text-1 {
+  margin-top: -3rem;
+}
+.banner-2 {
+  margin-top: 60px;
+}
+.design-col {
+  padding: 2% 27% 7% 27%;
+}
+.rounded-circle {
+  margin-left: 5rem;
+  padding: 36px 0px;
+
+}
+.textphara {
+  margin-right: 0px;
+}
+.wrap {
+  margin-left: 0rem;
+}
+.headingone{
+  margin-top: 5rem;
+}
+.footer-main{
+  margin-top: 5rem;
+}
+.navbar-collapse{
+  margin-left: 0;
+}
+/* .logo{
+  margin-left: 9rem;
+} */
+.icon-sec{
+  margin-left: 11rem;
+}
+.design-font{
+  margin-left: 8rem;
+  font-size: 20px;
+}
+.design-font-1 {
+  margin-top: 19px;
+  font-size: 20px;
+}
+.text-d{
+  font-size: 14px;
+}
+}
+/* START tab */
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  .design-col {
+    padding: 4% 13% 1% 13%;
+}
+.prayer-img {
+  margin-left: 8rem;
+}
+p.two {
+width: 103%;
+}
+.dropbtn {
+  padding: 17px 156px;
+}
+.banner-2 {
+  margin-top: 54px;
+}
+.text-1 {
+  margin-top: -7rem;
+}
+
+.design-1{
+  margin-top: -78px;
+}
+.design-2{
+  margin-top: -70px;
+}
+.rounded-circle{
+  margin-left: 4rem;
+}
+.circle-1{
+  margin-left: 100px;
+}
+.wrap {
+  margin-left: 4rem;
+}
+.form-class{
+  width: 102%;
+  padding: 44px 7px;
+}
+.btn-1{
+  margin-left: 1rem;
+}
+.form-class .title {
+  font-size: 19px;
+}
+.text-d{
+  font-size: 18px;
+}
+.navbar-collapse{
+  margin-left: 0;
+}
+.icon-sec{
+  margin-left: 5rem;
+}
+.design-font{
+  
+  font-size: 20px;
+}
+.design-font-1 {
+  margin-top: 19px;
+  font-size: 20px;
+}
+.text-d{
+  font-size: 14px;
+}
+.logo{
+  width: 34%;
+}
+}
+/* START LAPTOP */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .design-1 {
+    margin-top: -111px;
+  }
+  .design-2 {
+    margin-top: -59px;
+  }
+.form-class {
+    width: 90%;
+}
+.btn-1 {
+  margin-left: 2rem;
+}
+.design-col {
+  padding: 5% 4%;
+}
+.prayer-img {
+  margin-left: 1rem;
+  width: 100%;
+}
+.dropdown-content {
+  min-width: 477px;
+}
+.text-1{
+  margin-top: -10rem;
+}
+.circle-1 {
+  margin-left: 123px;
+}
+.rounded-circle {
+  margin-left: 8rem;
+}
+.dropbtn {
+  padding: 16px 20px;
+}
+.navbar-collapse{
+  margin-left: 0rem;
+}
+.icon-sec{
+  margin-left: 13rem;
+}
+.design-font{
+  font-size: 20px;
+}
+.design-font-1 {
+  margin-top: 19px;
+  font-size: 20px;
+}
+.text-d{
+  font-size: 14px;
+}
+
+}
+/* START X-LARGE */
+@media screen and (min-width: 1200px) and (max-width: 1450px) {
+  .circle-1 {
+    margin-left: 0;
+}
+.navbar-collapse{
+  margin-left: 0;
+}
+.design-font{
+  margin-top: 27px;
+  font-size: 20px;
+}
+.icon-sec{
+  margin-top: 27px;
+}
+}

@@ -1,0 +1,306 @@
+.mainHandler{
+  background-image: linear-gradient(to right, #d7e4626b, #86abe6);
+}
+.navLogoImg{
+  width: 5rem;
+}
+.fbIcon:hover{
+  color: #4064AC;
+}
+.instIcon:hover{
+  color:#E82E23;
+}
+.whatsApp{
+  display: flex;
+  align-items: center;
+}
+.whatsappIcon:hover{
+  color: #24CC63;
+}
+.TelephoneIcon:hover{
+  color: #5757CF;
+}
+
+
+.logo{
+    width: 18%;
+  }
+  .navbar-collapse
+  {
+    justify-content: space-around;
+    text-align: center;
+    /* margin-left: 21rem; */
+    padding: 10px;
+  }
+  .nav-item{
+    font-size: 18px;
+    justify-content: space-between;
+  }
+  /* .navbar-coll{
+    margin-left: -36rem;
+  } */
+  .navbar-brand{
+    padding: 0 0 0 30px;
+  }
+  .design-font{
+    margin-top: 19px;
+      font-size: 24px;
+  
+  }
+  .design-font-1{
+    margin-top: 27px;
+      font-size: 20px;
+  
+  }
+  .icon-sec{
+    margin-left: 19rem;
+  }
+  
+.main-ban{
+    width: 100%;
+}
+.head1{
+    margin-top: -15rem;
+}
+.btn-main{
+    margin-left: 38rem;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 10px 40px;
+}
+
+.heading-1{
+    margin-top: 10rem;
+    color: #413fd9;
+}
+.section-3{
+    margin-top: 105px;
+
+}
+.content-1{
+    padding: 15px 9rem;
+    color: #8f8787;
+    font-size: 20px;
+}
+.png-1{
+    margin-top: -20rem;
+    width: 80%;
+    margin-left: 50px;
+}
+
+.png-2{
+    margin-top: -20rem;
+    width: 80%;
+    margin-left: 35px;
+}
+
+.png-3{
+    margin-top: -20rem;
+    width: 80%;
+    margin-right: 50px;
+}
+
+
+.head2{
+    padding: 15px 0;
+    color: #413fd9;
+}
+
+.heading-2{
+    color: #8f8787;
+    font-size: 20px;
+}
+
+.arabic-img{
+    float: right;
+    width: 80%;
+    padding: 30px 0;
+    justify-content: flex-end;
+}
+.headingone{
+    padding-top: 100px;
+}
+.textphara{
+    color: #8f8787;
+    font-size: 20px;
+
+}
+.arabic-img2{
+    width: 80%;
+    padding: 30px 0;
+    justify-content: flex-end;
+}
+.footer-main{
+    padding: 20px 0 0 0;
+  }
+
+ /* -------------------------------------------------NOW START MEDIA QUERIES ------------------------------------ */
+
+/* start mobile */
+@media screen and (max-width: 766px) {
+  .mainHandler {
+    flex-direction:column !important;
+  }
+    .main-ban {
+        width: 100%;
+        height: 12rem;
+    }
+.head1 {
+    margin-top: -9rem;
+    font-size: 17px;
+}
+
+.btn-main {
+    margin-left: 11rem;
+    padding: 4px 24px;
+}
+.heading-1 {
+    margin-top: 6rem;
+}
+.content-1 {
+    padding: 15px 10px;
+    font-size: 16px;
+}
+.headingone {
+    padding-top: 50px;
+}
+.arabic-img {
+    margin-right: 35px;
+}
+.arabic-img2{
+    margin-left: 45px;
+}
+.section-3{
+    margin-top: 18px;
+    width: 100%;
+}
+.navbar-collapse{
+    margin-left: 0;
+  }
+  .logo{
+    margin-left: 9rem;
+  }
+  .icon-sec{
+    margin-left: 11rem;
+  }
+  .design-font{
+    margin-left: 8rem;
+    font-size: 20px;
+  }
+  .design-font-1 {
+    margin-top: 19px;
+    font-size: 20px;
+  }
+  .text-d{
+    font-size: 14px;
+  }
+}
+
+
+/* START tab */
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .main-ban {
+        width: 100%;
+        height: 13rem;
+    }
+    .heading-1 {
+        margin-top: 7rem;
+    }
+    .content-1 {
+        padding: 15px 2rem;
+    }
+    
+.head1 {
+    margin-top: -9rem;
+    font-size: 20px;
+}
+.btn-main {
+    margin-left: 21rem;
+    padding: 4px 24px;
+}
+.headingone {
+    padding-top: 50px;
+}
+.section-3{
+    margin-top: 35px;
+}
+.navbar-collapse{
+    margin-left: 0;
+  }
+  .icon-sec{
+    margin-left: 5rem;
+  }
+  .design-font{
+    
+    font-size: 20px;
+  }
+  .design-font-1 {
+    margin-top: 19px;
+    font-size: 20px;
+  }
+  .text-d{
+    font-size: 14px;
+  }
+  .logo{
+    width: 34%;
+  }
+}
+
+/* START LAPTOP */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .main-ban {
+        height: 17rem;
+    }
+    .head1 {
+        margin-top: -12rem;
+    }
+    .btn-main {
+    margin-left: 28rem;
+}
+.headingone{
+    padding-top: 60px;
+}
+.section-3{
+    margin-top: 58px;
+}
+.navbar-collapse{
+    margin-left: 0;
+  }
+  .icon-sec{
+    margin-left: 13rem;
+  }
+  .design-font{
+    font-size: 20px;
+  }
+  .design-font-1 {
+    margin-top: 19px;
+    font-size: 20px;
+  }
+  .text-d{
+    font-size: 14px;
+  }
+
+}
+/* START X-LARGE */
+@media screen and (min-width: 1200px) and (max-width: 1450px) {
+    .btn-main {
+        margin-left: 40rem;
+    }
+    .section-3{
+        margin-top: 106px;
+    }
+    .main-ban {
+        height: 20rem;
+    }   
+    .navbar-collapse{
+        margin-left: 0;
+      }
+      
+      .design-font{
+        margin-top: 27px;
+        font-size: 20px;
+      }
+      .icon-sec{
+        margin-top: 27px;
+      }
+}

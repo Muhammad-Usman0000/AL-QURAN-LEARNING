@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+li {
+    list-style: none;
+}
+.mainHandler{
+  background-image: linear-gradient(to right, #d7e4626b, #86abe6);
+}
+.navLogoImg{
+  width: 5rem;
+}
+.fbIcon:hover{
+  color: #4064AC;
+}
+.instIcon:hover{
+  color:#E82E23;
+}
+.whatsApp{
+  display: flex;
+  align-items: center;
+}
+.whatsappIcon:hover{
+  color: #24CC63;
+}
+.TelephoneIcon:hover{
+  color: #5757CF;
+}
+.logo{
+    width: 18%;
+  }
+  .navbar-collapse
+  {
+    justify-content: space-around;
+    text-align: center;
+    /* margin-left: 21rem; */
+    padding: 10px;
+  }
+  .nav-item{
+    font-size: 18px;
+    justify-content: space-between;
+  }
+  /* .navbar-coll{
+    margin-left: -36rem;
+  } */
+  .navbar-brand{
+    padding: 0 0 0 30px;
+  }
+  .design-font{
+    margin-top: 19px;
+      font-size: 24px;
+  
+  }
+  .design-font-1{
+    margin-top: 27px;
+      font-size: 20px;
+  
+  }
+  .icon-sec{
+    margin-left: 19rem;
+  }
+  
+.bannerBgImage{
+    background-image: url(https://www.quranreading.com/qrnewis/wp-content/uploads/2020/03/1200-450-1-1.jpg);
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bannerText{
+    padding-top: 17%;
+}
+.bannerBtn{
+    border: 2px solid #F7BB4F;
+    background-color: #F7BB4F;
+    border-radius: 2rem;
+}
+.aboutColor{
+    color: #4F5ECA;
+}
+.foundationColor{
+    color:#F7BB4F;
+}
+.iconColor{
+    
+    color:#F7BB4F;
+
+}
+.inputCustom{
+    width: 17rem;
+}
+.enrollForFree{
+   padding: 1rem 12rem;
+   background-color: #F6A937;
+  border: 2px solid #F6A937;
+  margin-top: 2rem;
+   color: white;
+}
+.enrollForFree:hover{
+    background-color: #f59506;
+}
+
+.footer-main{
+    padding: 20px 0 0 0;
+  }
